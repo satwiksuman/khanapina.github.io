@@ -1,0 +1,618 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+/* Header Section */
+#nav{
+    display: flex;
+    font-size: 3rem;
+    background-color: lightcyan;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head1{
+margin-top: 3.8rem;
+margin-bottom: 2.8rem;
+}
+
+.head2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+#head3{
+    display: none;
+}
+
+/* Content Section */
+#con1{
+    text-align: center;
+    background-color: aquamarine;
+}
+#con10{
+    font-size: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.0rem;
+}
+
+#con11{
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#con12{
+padding-bottom: 2rem;
+}
+
+#con121{
+    width: 40%;
+    height: 4rem;
+
+}
+
+#con122{
+    width: 10%;
+    height: 4.65rem;
+    margin-left: -0.3rem;
+}
+
+#con21{
+    margin-left: 3rem;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#con22{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.con221{
+    width:100%;
+}
+
+.con222{
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#con31{
+    margin-left: 3rem;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#con32{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.con321{
+    width:90%;
+    border-radius: 1.8rem;
+}
+
+
+.con322{
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Footer Section */
+
+#foot0{
+ display: none;
+}
+
+#foot1{
+    background-color: blanchedalmond;
+}
+
+#foot11{
+    font-size:4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5rem;
+    padding-top: 3rem;
+    margin-bottom: -1.5rem;
+}
+#foot12{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#foot121{
+    padding-top: 4rem;
+}
+
+
+#foot2{
+    background-color: lightgrey;
+    margin-bottom: -1.9rem;
+    padding-bottom: 1rem;
+    padding-top: 0.0015rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#foot3{
+    background-color: aquamarine;
+    margin-bottom: -1.9rem;
+    padding-bottom: 0.002rem;
+    padding-top: 0.002rem;
+}
+#foot31{
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem ;
+}
+
+
+/* Making Responsive */
+
+@media screen and (max-width:1000px){
+        #nav{
+        font-size: 2.8rem;
+        }
+
+        #head1{
+        margin-top: 3.6rem;
+        margin-bottom: 2.8rem;
+        }
+
+        #con10{
+            font-size: 7.5rem;
+          }
+  
+          #con11{
+              font-size: 3.5rem;
+          }
+
+          #con31{
+            margin-left: 2.5rem;
+            font-size: 3.7rem;
+        }
+
+        .con322{
+            font-size: 2.2rem;
+        }
+
+        #con21{
+            margin-left: 2.5rem;
+            font-size: 3.7rem;
+        }
+
+        .con222{
+            font-size: 2.2rem;
+        }
+        
+        #foot2{
+            font-size: 1.9rem;
+            padding-bottom: 1rem;
+            padding-top: 0.0013rem;
+        }
+
+        #foot31{
+            font-size: 1.6rem;
+        }
+        
+        #foot11{
+            font-size:3.7rem;
+            margin-left: 5rem;
+            padding-top: 3rem;
+            margin-bottom: -1.5rem;
+        }
+        #foot12{
+            font-size: 2.5rem;
+        }
+        
+}
+
+@media screen and (max-width:900px){
+    #nav{
+        font-size: 2.5rem;
+        }
+
+        #head1{
+        margin-top: 3.6rem;
+        margin-bottom: 2.8rem;
+        }
+
+        #con10{
+            font-size: 7.2rem;
+          }
+  
+          #con11{
+              font-size: 3.3rem;
+          }
+
+        #con121{
+          width: 50%;
+        }
+
+        #con122{
+           width: 15%;
+        }
+
+        #con31{
+            margin-left: 2.1rem;
+            font-size: 3.3rem;
+        }
+
+        .con322{
+            font-size: 2rem;
+        }
+        
+        #con21{
+            margin-left: 2.1rem;
+            font-size: 3.3rem;
+        }
+
+        .con222{
+            font-size: 2rem;
+        }
+
+        #foot2{
+            font-size: 1.8rem;
+            padding-bottom: 1rem;
+            padding-top: 0.0013rem;
+        }
+
+        #foot31{
+            font-size: 1.4rem;
+        }
+
+        #foot11{
+            font-size:3.3rem;
+            margin-left: 3rem;
+            padding-top: 3rem;
+            margin-bottom: -1.5rem;
+        }
+        #foot12{
+            font-size: 2.3rem;
+        }
+        #foot121{
+            padding-top: 3.8rem;
+        }
+}
+
+@media screen and (max-width:800px){
+    #nav{
+        font-size: 2.1rem;
+        }
+        
+        #head1{
+            margin-top: 3.3rem;
+            margin-bottom: 2.8rem;
+            }
+            
+            .head2{
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            #con10{
+                font-size: 6.8rem;
+              }
+      
+              #con11{
+                  font-size: 2.8rem;
+              }
+
+              #con31{
+                margin-left: 1.8rem;
+                font-size: 3.1rem;
+            }
+    
+            .con322{
+                font-size: 2rem;
+            }
+            
+            #con21{
+                margin-left: 1.8rem;
+                font-size: 3.1rem;
+            }
+    
+            .con222{
+                font-size: 2rem;
+            }
+
+            #foot2{
+                font-size: 1.5rem;
+                padding-bottom: 1rem;
+                padding-top: 0.0013rem;
+            }
+    
+            #foot31{
+                font-size: 1.25rem;
+            }
+            #foot11{
+                font-size:3.1rem;
+                margin-left: 3rem;
+                padding-top: 3rem;
+                margin-bottom: -1.3rem;
+            }
+            #foot12{
+                font-size: 1.9rem;
+            }
+            
+            #foot121{
+                padding-top: 3.2rem;
+            }
+
+}
+
+@media screen and (max-width:700px){
+    #nav{
+        font-size: 2.1rem;
+        }
+
+        #head1{
+        margin-top: 3.3rem;
+        margin-bottom: 2.8rem;
+        }
+        
+        .head2{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        #head22{
+            display: none;
+        }
+        
+        #con10{
+            font-size: 5.8rem;
+          }
+  
+          #con11{
+              font-size: 2.8rem;
+          }
+
+          #con31{
+            margin-left: 1.5rem;
+            font-size: 2.9rem;
+        }
+
+        .con322{
+            font-size: 1.8rem;
+        }
+        
+        #con21{
+            margin-left: 1.5rem;
+            font-size: 2.9rem;
+        }
+
+        .con222{
+            font-size: 1.8rem;
+        }
+
+        #foot2{
+            font-size: 1.4rem;
+            padding-bottom: 1rem;
+            padding-top: 0.0013rem;
+        }
+
+        #foot31{
+            font-size: 1.1rem;
+        }
+
+        #foot11{
+            font-size:2.5rem;
+            margin-left: 3rem;
+            padding-top: 2rem;
+            margin-bottom: -1.5rem;
+        }
+        #foot12{
+            font-size: 1.4rem;
+        }
+
+        #foot121{
+            padding-top: 2.7rem;
+        }
+
+}
+
+@media screen and (max-width:600px){
+
+    #nav{
+        font-size: 1.9rem;
+        }
+
+        #con121{
+            width: 60%;
+          }
+  
+          #con122{
+             width: 20%;
+          }
+
+          #con10{
+            font-size: 5rem;
+          }
+  
+          #con11{
+              font-size: 2.4rem;
+          }
+
+          #con31{
+            margin-left: 1.2rem;
+            font-size: 2.5rem;
+        }
+
+        .con322{
+            font-size: 1.5rem;
+        }
+        
+        #con21{
+            margin-left: 1.2rem;
+            font-size: 2.5rem;
+        }
+
+        .con222{
+            font-size: 1.5rem;
+        }
+
+        #foot2{
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+            padding-top: 0.0013rem;
+        }
+
+        #foot31{
+            font-size: 1.15rem;
+        }
+
+        #foot11{
+            font-size:2rem;
+            margin-left: 3rem;
+            padding-top: 2rem;
+            margin-bottom: -1.5rem;
+        }
+        #foot12{
+            font-size: 1.3rem;
+        }
+
+        #foot121{
+            padding-top: 2rem;
+        }
+}
+
+@media screen and (max-width:500px){
+    #head23{
+        display: none;
+    }
+
+    #head24{
+        display: none;
+    }
+
+    #head3{
+        display: block;
+        height: 4rem;
+        text-align: center;
+        width: 12rem;
+        font-size: 1.7rem;
+        font-weight: 200;
+        border-radius: 1.8rem;
+        margin-top: 3rem;
+    }
+
+    #con122{
+        font-size: 1.2rem;
+     }
+
+     #con10{
+        font-size: 4rem;
+      }
+
+      #con11{
+          font-size: 2.1rem;
+      }
+
+      #con31{
+        margin-left: 1rem;
+        font-size: 2.4rem;
+    }
+
+    .con322{
+        font-size: 1.3rem;
+    }
+    
+    #con21{
+        margin-left: 1rem;
+        font-size: 2.4rem;
+    }
+
+    .con222{
+        font-size: 1.3rem;
+    }
+
+    #foot2{
+        font-size: 1.15rem;
+        padding-bottom: 1rem;
+        padding-top: 0.0013rem;
+    }
+
+    #foot31{
+        font-size: 1rem;
+    }
+    
+    #foot11{
+        font-size:1.8rem;
+        margin-left: 2.1rem;
+        padding-top: 2rem;
+        margin-bottom: -1rem;
+    }
+    #foot12{
+        font-size: 1.1rem;
+    }
+
+    #foot121{
+        padding-top: 2rem;
+    }
+   
+}
+
+@media screen and (max-width:400px){
+    #con121{
+        width: 65%;
+      }
+
+      #con122{
+         width: 25%;
+      }
+
+      #con11{
+        font-size: 1.7rem;
+    }
+
+    #con31{
+        margin-left: 1rem;
+        font-size: 2.2rem;
+    }
+
+    .con322{
+        font-size: 1.1rem;
+    }
+    
+    #con21{
+        margin-left: 1rem;
+        font-size: 2.2rem;
+    }
+
+    .con222{
+        font-size: 1.1rem;
+    }
+
+    #foot11{
+        font-size:1.4rem;
+        margin-left: 1.2rem;
+        padding-top: 2rem;
+        margin-bottom: -0.9rem;
+    }
+    #foot12{
+        font-size: 1.1rem;
+    }
+
+    #foot121{
+        padding-top: 2rem;
+    }
+}
